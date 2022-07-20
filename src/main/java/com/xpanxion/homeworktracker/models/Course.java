@@ -72,8 +72,7 @@ public class Course implements Serializable {
     @Override
     public String toString(){
         return "Course{" +
-                ",title = '" + title + '\''+
-                ",language = '" + language + '\''+
+                ",title = '" + title + '\''+ ",language = '" + language + '\''+
                 ",subject = '" + subject + '\''+
                 ",imgUrl = '" + imageUrl + '\''+
                 '}';
